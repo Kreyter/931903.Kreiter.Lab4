@@ -1,0 +1,83 @@
+﻿body {
+    margin: 0;
+    font-family: "arial";
+    background-color: #edeef0;
+}
+header {
+    position: fixed;
+    background-repeat: no-repeat;
+    background-color: #507299;
+    font-size: 30px;
+    font-stretch: extra-expanded;
+    text-align: left;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.glavblock {
+    margin: 15px;
+    border-radius: 10px 10px 10px 10px;
+    max-width: 420px;
+    max-height: 500px;
+    background-color: white;
+    text-align:justify;
+    padding: 15px 15px 15px 15px;
+    box-shadow: 0px 0px 0px 2px #e1e5eb;
+}
+
+.like {
+    margin-top: 7px;
+    color: #507299;
+}
+
+.menu {
+    float: left;
+    font-stretch: extra-expanded;
+    font-family: Arial;
+    height: 100%;
+    max-width: 200px;
+    color: #507299;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.right {
+    margin: 15px;
+    border-radius: 5px 5px 5px 5px;
+    max-width: 150px;
+    min-width: 150px;
+    background-color: white;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0px 0px 0px 2px #e1e5eb;
+}
+
+
+.footer {
+    position: static;
+    bottom: 0;
+    background-color: white;
+    font-size: 20px;
+    font-stretch: extra-expanded;
+    color: #d0d0d0;
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width:880px) {
+    .menu {
+        float: left;
+        font-stretch: extra-expanded;
+        font-family: Arial;
+        height: 100%;
+        max-width: 460px;
+        color: #507299;
+        margin-right: 30px;
+        padding-right: 30px;
+    }
+} 
+
